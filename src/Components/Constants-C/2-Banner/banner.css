@@ -1,0 +1,71 @@
+.banner-con {
+  background-color: white;
+  margin-top: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+
+.banner {
+  height: 300px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-img {
+  background-color: #222;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.b-img img {
+  width: 200px;
+}
+
+.banner-text {
+  padding-top: 20px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
+
+.banner-text h2 {
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#btn {
+  width: 110px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #222;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 11px;
+  color: rgb(225, 230, 0);
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@media (max-width: 600px) {
+
+  .b-img {
+    background-color: #fff;
+    width: 100%;
+    
+  }
+  .b-img img {
+    width: 100%;
+  }
+}
+
+

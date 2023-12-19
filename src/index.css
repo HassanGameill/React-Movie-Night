@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Start Variables */
+
+:root {
+    --primary: #8A74F9;
+    --main: #F3F5F7;
+    --font-style-light: #99A1B7;
+  
+  }
+  
+  
+  /* End Variables */
+  /* //////////////////////////////// */
+  /* START Global Rules */
+  
+  
+  * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    
+    .App {
+       font-family: 'Lora', serif;
+       background-color: var(--main);
+    
+    }
+    
+    ul li {
+      list-style: none;
+    
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
+    
+    Link {
+      list-style: none;
+      text-decoration: none;
+    }
+    
+    
+    .containers {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+    
+    .GRID {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+    
+    /* END Global Rules */
