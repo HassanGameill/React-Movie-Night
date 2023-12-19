@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Movie-Night/static/css/main.8bb6abbd.css",
+    "main.js": "/React-Movie-Night/static/js/main.2b34e87d.js",
+    "static/js/787.b55ca069.chunk.js": "/React-Movie-Night/static/js/787.b55ca069.chunk.js",
+    "static/media/llogo.png": "/React-Movie-Night/static/media/llogo.bdbe2c1e35cc8d81f36f.png",
+    "index.html": "/React-Movie-Night/index.html",
+    "main.8bb6abbd.css.map": "/React-Movie-Night/static/css/main.8bb6abbd.css.map",
+    "main.2b34e87d.js.map": "/React-Movie-Night/static/js/main.2b34e87d.js.map",
+    "787.b55ca069.chunk.js.map": "/React-Movie-Night/static/js/787.b55ca069.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bb6abbd.css",
+    "static/js/main.2b34e87d.js"
+  ]
+}
